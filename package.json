@@ -1,0 +1,15 @@
+{
+  "name": "teaching-plan-generator",
+  "version": "1.0.0",
+  "description": "根据Word模板自动生成中小学教师导学案（教案）",
+  "main": "scripts/generate.js",
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "analyze": "node scripts/analyze_template.js"
+  },
+  "keywords": ["教案", "导学案", "docx", "教师", "教学设计"],
+  "license": "MIT",
+  "dependencies": {
+    "docx": "^9.6.0"
+  }
+}
